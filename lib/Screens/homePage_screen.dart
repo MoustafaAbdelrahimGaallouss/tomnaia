@@ -1,6 +1,7 @@
 // ignore: file_names
 import 'package:flutter/material.dart';
 import 'package:tomnaia/Components/profilPhoto.dart';
+// import 'package:tomnaia/data/data.dart';
 
 
 
@@ -10,7 +11,6 @@ String ToWhere='No Scheduled Ride';
 class HomePage extends StatelessWidget {
   const HomePage({super.key});
 
- 
   @override
   Widget build(BuildContext context) {
     return SafeArea(
